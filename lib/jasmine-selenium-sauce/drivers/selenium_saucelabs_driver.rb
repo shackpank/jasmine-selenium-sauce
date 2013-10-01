@@ -27,7 +27,8 @@ module Jasmine
               'record-video' => sauce_config.record_video,
               'idle-timeout' => sauce_config.idle_timeout,
               'max-duration' => sauce_config.max_duration,
-              'name' => "Jasmine"
+              'name' => "Jasmine #{ENV['TRAVIS_JOB_NUMBER']}",
+              'tunnel-identifier' => ENV['TRAVIS_JOB_NUMBER']
           }
         end
       end
