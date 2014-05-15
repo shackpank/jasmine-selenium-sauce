@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rb-fsevent'
   gem.add_development_dependency 'vcr'
 
-  gem.add_dependency 'localtunnel', "~> 0.3"
+  #gem.add_dependency 'localtunnel', "~> 0.3"
   gem.add_dependency 'rspec', ">= 2.0"
   gem.add_dependency 'selenium-webdriver', "> 2.0.0"
 end

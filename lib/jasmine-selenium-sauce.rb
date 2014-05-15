@@ -9,8 +9,8 @@ require 'jasmine-selenium-sauce/drivers/selenium_driver'
 require 'jasmine-selenium-sauce/drivers/selenium_browser_driver'
 require 'jasmine-selenium-sauce/drivers/selenium_saucelabs_driver'
 
-require 'localtunnel/tunnel'
-require 'localtunnel_patch'
+#require 'localtunnel/tunnel'
+#require 'localtunnel_patch'
 
 module Jasmine
   module Sauce
